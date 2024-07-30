@@ -1,0 +1,5 @@
+﻿# Principio de Abierto/Cerrado (OCP)
+
+El proyecto cumple con el Principio de Abierto/Cerrado (OCP) porque podemos añadir nuevos tipos de cursos creando 
+nuevas clases que heredan de `Course` sin tener que modificar el código de `Course` ni de las clases existentes como 
+`OnlineCourse` o `OfflineCourse`. Esto significa que el sistema es extensible sin necesidad de cambiar el código ya escrito.
